@@ -36,6 +36,7 @@ class CalculatorBrain{
         "±" : Operation.symbolCalc({ -$0 }),
         "=" : Operation.isEqual,
         "C" : Operation.clear
+        
     ]
     
     // performOperation [function]
