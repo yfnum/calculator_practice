@@ -22,7 +22,7 @@ class CalculatorBrain{
     // is it a constant or a calculation
     // have class Operation do it
     internal let operations: Dictionary <String, Operation> = [
-        "π" : Operation.constant(M_PI),
+        "π" : Operation.constant(.pi),
         "e" : Operation.constant(M_E),
         "√" : Operation.symbolCalc(sqrt),
         "cos" : Operation.symbolCalc(cos),
